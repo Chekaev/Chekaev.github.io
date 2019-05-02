@@ -1,0 +1,341 @@
+html {
+    position: relative;
+    min-height: 100%;
+
+}
+
+
+.body {
+    box-sizing: border-box;
+    font-family: monospace;
+    background-image: url(imgs/dogbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 70px;
+}
+
+
+
+.menu {
+    padding-bottom: 30px;
+}
+
+
+.menu li {
+    list-style-type: none;
+    text-align: center;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.men {
+    box-shadow: 1px 2px 1px black;
+    background-color: gray;
+    transition: 2s;
+   
+  
+
+
+}
+
+.men:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 4px 8px 3px black;
+}
+
+
+.menu li a:hover {
+    text-decoration: none;
+}
+
+
+
+.menu li img {
+    margin-top: -20px;
+}
+
+
+.logo:hover {
+    transform: rotate(270deg)
+}
+
+.logo {
+    transition: 2s;
+    height: 80px;
+    width: 80px;
+}
+
+
+.title {
+    background-color: #FFE07E;
+    color: gray;
+    font-size: 90px;
+    font-weight: bold;
+    text-shadow: 1px 4px 1px black;
+    margin-bottom: 15px;
+}
+
+.bodycont {
+    background-color: gray;
+    margin-bottom: 100px;
+}
+
+.left-text p {
+    
+    color: white;
+    text-align: left;
+    line-height: 16px;
+}
+
+
+.left-text h2 {
+   line-height: 27px;
+    color: #FFE07E;
+    font-weight: bold;
+}
+.left-text{
+    text-align: center;
+    font-size: 16px;
+   
+    
+}
+
+.vib {
+    color: #FFE07E;
+}
+
+.img-fluid {
+    background-color: #FFE07E;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 30px;
+    border-top: 15px solid #FFE07E;
+    background-color: gray;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+}
+
+footer p {
+    text-align: center;
+    bottom: 0;
+    padding-top: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: #FFE07E;
+}
+
+
+
+.cont {
+    margin-top: 50px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+   
+   
+}
+.con{
+    background-image: url(imgs/dogbackground.png);
+    background-size:cover;
+   background-repeat: no-repeat;
+  background-position: center;
+    height: 500px;
+    text-align: center;
+    display: table; 
+}
+.con a{
+    vertical-align: middle;
+    display: table-cell;
+   
+}
+.opisanie a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.opisanie a:hover {
+    text-decoration: none;
+}
+
+.opisanie {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    
+    
+    font-family: monospace;
+    font-size: 16px;
+}
+
+
+.opisanie ul{
+    padding-left: 20px;
+    text-align: left;
+}
+
+.empty {
+    padding-top: 400px;
+}
+
+.cover {
+    border-radius: 100%;
+    border: 1ps solid black;
+    transition: 20s;
+    max-width: 100%;
+    
+
+    
+  
+}
+
+.cover:hover {
+    transform: rotate(180deg);
+    
+}
+
+.cov1,
+.cov2,
+.cov3 {
+    background-size: contain;
+    
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: 1px 2px 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.cov1 {
+    background-image: url(imgs/cover1.jpg);
+}
+
+.cov2 {
+    background-image: url(imgs/cover2.jpg);
+}
+
+.cov3 {
+    background-image: url(imgs/cover3.jpg);
+}
+
+
+
+
+.cover2 {
+    border-radius: 100%;
+    border: 1ps solid black;
+    transition: 20s;
+    width: 400px;
+    height: auto;
+    
+    
+
+    
+  
+}
+
+.cover2:hover {
+    transform: rotate(180deg);
+    
+}
+
+
+
+
+
+
+.right{
+   background-color:#FFE07E; 
+}
+form{
+    background-color: white; 
+    height: 600px;
+    padding-top: 10px;
+    background-image: url(imgs/dog2.jpg);
+    background-size: contain;
+    background-position: right;
+    padding-left: 20px;
+}
+form p{
+    font-size: 16px;
+}
+form h2 {
+   line-height: 10px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+input, textarea {
+  background-color: transparent;
+    text-transform: capitalize;
+    transition: 2s;
+    
+   
+}
+textarea{
+    height: 200px;
+    width: 75%;
+    resize: none;
+}
+
+textarea:focus,
+input:focus {
+    color: black;
+    transform: scale(1.1);
+
+    
+}
+
+input:hover, textarea:hover{
+    background-color: white; 
+    
+}
+input::placeholder{
+    color: black;
+    font-size: 16px;
+}
+input[type=submit],input[type=reset],input[type=tel],input[type=email],input[type=text]{
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+input[type=submit],input[type=reset]{
+    color: black;
+    font-size: 16px;
+}
+
+.left-text ol{
+    padding-left: 30%;
+    padding-right: 30%;
+  
+    text-align:right;
+    color: white;
+    font-size: 16px;
+     
+}
+.left-text h3{
+    color: #FFE07E;
+}
+.left-text input{
+    border: 1px solid white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
