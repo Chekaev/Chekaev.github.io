@@ -342,7 +342,13 @@ input[type=submit],input[type=reset]{
     margin-top: 20px;
 }
 canvas{
-    position: absolute;
+    transition-duration: 3s;
+    opacity: 0.7;
+}
+canvas:hover{
+    opacity: 0;
+    display: block;
+    
 }
 
 
